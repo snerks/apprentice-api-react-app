@@ -3,18 +3,19 @@
   max-width: 800px;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
   padding: 2rem;
 }
 
 .vacancies-table {
   width: 100%;
   border-collapse: collapse;
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-size: 1rem;
 }
 
-.vacancies-table th, .vacancies-table td {
+.vacancies-table th,
+.vacancies-table td {
   padding: 0.75rem 1rem;
   text-align: left;
 }
