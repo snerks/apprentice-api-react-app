@@ -1,0 +1,39 @@
+.vacancies-container {
+  margin: 2rem auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+
+.vacancies-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.vacancies-table th, .vacancies-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.vacancies-table th {
+  background: #f5f7fa;
+  color: #333;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.vacancies-table tr {
+  transition: background 0.2s;
+}
+
+.vacancies-table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.vacancies-table tbody tr:hover {
+  background: #e6f0fa;
+}
